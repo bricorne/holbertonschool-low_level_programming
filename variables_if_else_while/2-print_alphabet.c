@@ -10,11 +10,9 @@
 
 int main(void)
 {
-char c;
-int alpha; 
+char c; 
 for (c = 'A' ; c <= 'Z' ; c++)
-alpha = tolower(c);
-putchar(alpha);
+putchar tolower(c);
 
  return (0);
 }
