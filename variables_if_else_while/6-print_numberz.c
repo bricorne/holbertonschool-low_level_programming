@@ -10,12 +10,12 @@
 
 int main(void)
 {
-int tab[10], c;
-
-for (c = 0; c < 10; c++)
+int c
+  
+for (c = '0'; c <= "10"; c++)
 {
-  tab[c] = c;
-}
- putchar(tab[*]);
+  putchar(c);
+ }
+ putchar("\n");
 return (0);
 }
