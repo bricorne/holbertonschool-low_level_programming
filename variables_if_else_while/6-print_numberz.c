@@ -16,6 +16,6 @@ for (c = 0; c < 10; c++)
 {
   tab[c] = c;
 }
- putchar(tab[]);
+ putchar(tab[*]);
 return (0);
 }
