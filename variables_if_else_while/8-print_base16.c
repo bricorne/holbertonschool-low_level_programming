@@ -11,7 +11,7 @@
 int main(void)
 {
 int c;
-for (c = "0" ; c >= "16" ; c++)
+for (c = 0x0 ; c >= 0x16 ; c++)
 {
   putchar("%x", c);
 }
