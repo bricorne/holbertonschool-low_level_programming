@@ -14,7 +14,7 @@ char c;
 for(c = 'A' ; c <= 'Z' ; c++)
 {
 putchar(tolower(c));
-printf("\n");
 }
+printf("\n");
 return (0);
 }
