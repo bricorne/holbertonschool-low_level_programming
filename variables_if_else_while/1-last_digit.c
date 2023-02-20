@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	char last = n[length - 1]; 
+	int last = n[length - 1]; 
 	if (last>5){
 	  printf("%d and is greater than 5\n", last);
 	} else if (last==0){
