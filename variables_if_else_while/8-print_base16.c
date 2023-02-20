@@ -13,8 +13,7 @@ int main(void)
 int c;
 for (c = 0x0 ; c >= 0x16 ; c++)
 {
-  int h="%x",c;
-  putchar(h);
+  printf("%d", c);
 }
  putchar('\n');
 return (0);
