@@ -10,7 +10,7 @@
 int main(void)
 {
 char c;
- 
+int alpha; 
 for (c = 'A' ; c <= 'Z' ; c++)
 alpha = tolower(c);
 putchar(alpha);
