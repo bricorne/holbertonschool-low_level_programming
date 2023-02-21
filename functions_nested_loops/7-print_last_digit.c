@@ -10,5 +10,6 @@
 
 int print_last_digit(int n)
 {
-  return (n % 10, n % 10);
+  int m = (n % 10, n % 10);
+  return (m);
 }
