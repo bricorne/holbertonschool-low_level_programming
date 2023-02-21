@@ -4,8 +4,8 @@
 #include "main.h"
 /**
  * print_last_digit - computes the absolute value of an integer
- * @n: An input character
- * Return: always 0.
+ * @r: An input character
+ * Return: always last digit
  */
 
 int print_last_digit(int r)
