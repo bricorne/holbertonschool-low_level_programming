@@ -11,10 +11,10 @@ int _islower(int c)
 char l = (char)c;
 if ( islower(l))
 {
-  return (0);
+  return (1);
 }
 else
 {
-  return (1);
+  return (0);
 }
 }
