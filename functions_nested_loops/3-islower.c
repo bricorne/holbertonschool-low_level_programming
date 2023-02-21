@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <ctype.h>
 #include "main.h"
 /**
  * int_islower - return if its lower or no
