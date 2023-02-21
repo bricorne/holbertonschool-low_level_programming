@@ -8,9 +8,8 @@
  * Return: always 0.
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-int r = n % 10;
-_putchar(r);
-return (r);
+int n = r % 10;
+return (n % 10);
 }
