@@ -3,7 +3,7 @@
 #include <time.h>
 #include "main.h"
 /**
- * print_alphabet - print the alphabet
+ * print_alphabet_x10 - print the alphabet x10
  */
 
 void print_alphabet_x10(void)
