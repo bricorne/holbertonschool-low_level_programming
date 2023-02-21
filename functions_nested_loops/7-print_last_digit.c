@@ -14,5 +14,5 @@ int o = n % 10;
 int p = o * 10;
 int q = p + o;
 char r = (char)q;
-return ('r');
+return (r);
 }
