@@ -3,18 +3,20 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * int_islower - return if its lower or no
+ * _islower - return if its lower or no
+ *
+ * c - the input value
  */
 
 int _islower(int c)
 {
 char l = (char)c;
-if ( islower(l))
+if (islower(l))
 {
-  return (1);
+return (1);
 }
 else
 {
-  return (0);
+return (0);
 }
 }
