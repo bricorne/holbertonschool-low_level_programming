@@ -7,8 +7,8 @@
  */
 
 int_islower(int c)
-char l=(char)c;
 {
+char l = (char)c;
 if ( islower(l))
 {
 return (1);
