@@ -3,17 +3,15 @@
 #include <time.h>
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_alphabet - print the alphabet
  */
 
 void print_alphabet(void)
 {
-  char a;
+char a;
 
-  for (a = 'a'; a <= 'z'; a++)
-     putchar(a);
+for (a = 'a'; a <= 'z'; a++)
+putchar(a);
   
-  putchar('\n');
+putchar('\n');
 }
