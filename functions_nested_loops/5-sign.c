@@ -24,7 +24,7 @@ value = 0;
 }
 else
 {
-putchar('-');
+_putchar('-');
 value = -1;
 }
 return (value);
