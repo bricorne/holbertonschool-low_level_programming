@@ -17,7 +17,7 @@ printf("+");
 }
 else if (n == 0)
 {
-return (0)
+return (0);
 printf("0");
 }
 else
