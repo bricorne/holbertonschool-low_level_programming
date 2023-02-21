@@ -5,7 +5,7 @@
 /**
  * _isalpha - Check Holberton
  * @c: An input character
- * 
+ *
  * Return: 1 if is alphabetic character or 0 if is other
  */
 
