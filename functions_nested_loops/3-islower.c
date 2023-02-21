@@ -6,7 +6,7 @@
  * int_islower - return if its lower or no
  */
 
-int_islower(int c)
+int _islower(int c)
 {
 char l = (char)c;
 if ( islower(l))
