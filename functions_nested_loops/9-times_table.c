@@ -13,11 +13,11 @@ int num=0, res, i, j;
 
 for(i = 0; i < 10; i++)
     {
-      printf("0, ");
+      printf("0");
       for(j = 1; j < 10; j++)
 	{
 	  res = num*j;
-	  printf("%d, ", res);
+	  printf(", %d", res);
 	}
       printf("\n");
       num++;
