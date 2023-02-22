@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <ctype.h>
 #include "main.h"
 /**
@@ -23,6 +22,5 @@ for(i=0; i<10; i++)
       printf("\n");
       num++;
     }
-  getch();
-  return 0;
+return 0;
 }
