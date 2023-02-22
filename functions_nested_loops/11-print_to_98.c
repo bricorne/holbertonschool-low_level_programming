@@ -12,9 +12,22 @@
 void print_to_98(int n)
 {
   int i;
-  
-  for (i = 0; i < 99; i++)
+
+  if (n < 98)
     {
-      printf("%d, ", i);
+      for (i = n; i < 99; i++)
+	{
+	  _putchar(i);
+	}
     }
+  else if (n > 98)
+    {
+      for (i = n; i > 98; i--)
+	{
+	  _putchar(i);
+	}
+    }
+  else
+    {
+      _putchar(n);
 }
