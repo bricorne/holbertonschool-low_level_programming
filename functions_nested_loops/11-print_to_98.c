@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include "holberton.h"
-
+#include <stdlib.h>
+#include <ctype.h>
+#include "main.h"
 /**
  * print_to_98 - Check Holberton
  * @n: A input integer
