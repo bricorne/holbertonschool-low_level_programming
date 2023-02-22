@@ -27,7 +27,8 @@ void print_to_98(int n)
 	  _putchar(i);
 	}
     }
-  else
-    {
-      _putchar(n);
+else
+{
+_putchar(n);
+}
 }
