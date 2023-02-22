@@ -22,5 +22,4 @@ for(i=0; i<10; i++)
       printf("\n");
       num++;
     }
-return 0;
 }
