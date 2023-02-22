@@ -19,5 +19,4 @@ void jack_bauer(void)
 	    printf("%d:%d\n",i,j);
 	  }
       }
-  return (0);
 }
