@@ -20,9 +20,16 @@ for (j = 0; j < size; j++)
 
 for (i = 0; i < size; i++)
 {
+  int h = size - j;
+  int e;
+  for (; e < h; e++)
+    {
 _putchar(' ');
 }
-_putchar('#');
+  else
+    {
+      _putchar('#');
+ }
 _putchar('\n');
 }
 if (size <= 0)
