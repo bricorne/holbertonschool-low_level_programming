@@ -31,13 +31,13 @@ _putchar(' ');
     {
       _putchar('#');
  }
+    }
 _putchar('\n');
 }
     }
 if (size <= 0)
 {
 putchar('\n');
- }
  }
 }
 
