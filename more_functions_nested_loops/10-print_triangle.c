@@ -22,7 +22,7 @@ for (i = 0; i < size; i++)
 {
   int h = size - j;
   int e;
-  for (; e < size; e++)
+  for (e = 0; e < size; e++)
     {
       if (e < h)
 	{
