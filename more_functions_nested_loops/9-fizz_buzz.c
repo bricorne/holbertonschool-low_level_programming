@@ -3,13 +3,13 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * FizzBuzz - Check Holberton
+ * main - Check Holberton
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
-void FizzBuzz(void)
+void main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
