@@ -17,10 +17,12 @@ int i;
 
 for (j = 0; j < size; j++)
 {
-  for (i = 0; i < j; i++)
-    {
   int h = size - j;
+  
+  for (i = 0; i < h; i++)
+    {
   int e;
+  
   for (e = 0; e < size; e++)
     {
       if (e < h)
