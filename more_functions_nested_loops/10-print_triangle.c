@@ -19,7 +19,7 @@ for (j = 0; j < size; j++)
 {
   int h = size - j;
   
-  for (i = 0; i < h; i++)
+  for (i = 0; i < j ; i++)
     {
   int e;
   
