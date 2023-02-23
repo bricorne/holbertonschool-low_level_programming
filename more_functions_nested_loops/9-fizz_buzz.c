@@ -9,7 +9,7 @@
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
-void main(int)
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
