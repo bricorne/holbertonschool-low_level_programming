@@ -12,7 +12,7 @@
 int main(void)
 {
 int i;
-int max=100;
+int max = 100;
 
 for (i = 1; i <= max; i++)
 {
