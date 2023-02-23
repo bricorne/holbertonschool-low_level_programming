@@ -12,28 +12,29 @@
 
 void print_triangle(int size)
 {
-int i, j, n;
+int i, j, n = size - 1;
 
-for (i = 0; i < size; i++)
-{
-
-for (j = 0; j < size; j++)
-{
-
-for (n = size - 1 ;j < n; n--)
-{
-_putchar(' ');
-}
-if (j == n)
-{
-_putchar('#');
-}
-_putchar('\n');
-}
-}
-if (i <= 0)
-{
-_putchar('\n');
+if (size > 0)
+	{
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+			  if (j < n)
+				  {
+					_putchar(' ');
+				  }
+			  else
+			    {
+					_putchar('#');
+			    }
+			}
+			n--;
+			_putchar('\n');
+		}
+	}
+	else
+		_putchar('\n');
 }
 }
 
