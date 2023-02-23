@@ -21,21 +21,16 @@ for (j = 0; j < size; j++)
   
   for (i = 0; i < j ; i++)
     {
-  int e;
-  
-  for (e = 0; e < size; e++)
-    {
-      if (e < h)
+      if (i < h)
 	{
 _putchar(' ');
-}
+      }
   else
     {
       _putchar('#');
  }
     }
 _putchar('\n');
-}
     }
 if (size <= 0)
 {
