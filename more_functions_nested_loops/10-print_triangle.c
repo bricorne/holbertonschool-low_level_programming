@@ -38,5 +38,7 @@ _putchar('\n');
 if (size <= 0)
 {
 putchar('\n');
+ }
+ }
 }
-}
+
