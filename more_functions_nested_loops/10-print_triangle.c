@@ -22,14 +22,17 @@ for (i = 0; i < size; i++)
 {
   int h = size - j;
   int e;
-  for (; e < h; e++)
+  for (; e < size; e++)
     {
+      if (e < h)
+	{
 _putchar(' ');
 }
   else
     {
       _putchar('#');
  }
+    }
 _putchar('\n');
 }
 if (size <= 0)
