@@ -9,7 +9,7 @@
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
-void main(void)
+void main()
 {
 int i;
 for (i = 1; i <= 100; i++)
@@ -23,5 +23,4 @@ if (i % 3 == 0)
 printf("Buzz ");
 }
 }
-return (0);
 }
