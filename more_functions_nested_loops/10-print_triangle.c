@@ -33,8 +33,10 @@ if (size > 0)
 			_putchar('\n');
 		}
 	}
-	else
+ else
+   {
 		_putchar('\n');
+   }
 }
-}
+
 
