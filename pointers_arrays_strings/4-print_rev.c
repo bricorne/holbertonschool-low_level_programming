@@ -3,12 +3,12 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strlen - Check Holberton
+ * print_rev - Check Holberton
  *@s: an input
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
 void print_rev(char *s)
 {
-  printf("%s\b", revstr(s));
+  printf("%s\n", strrev(s));
 }
