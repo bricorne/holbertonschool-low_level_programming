@@ -15,7 +15,7 @@ void print_rev(char *s)
    
    char *begin, *end, temp;
  
-   length = _strlen(s);
+   length = strlen(s);
    begin  = s;
    end    = s;
  
