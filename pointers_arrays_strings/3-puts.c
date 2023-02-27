@@ -10,5 +10,5 @@
 
 void _puts(char *str)
 {
-printf("%p", str);
+printf("%c", str);
 } 
