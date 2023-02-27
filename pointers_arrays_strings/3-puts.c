@@ -11,5 +11,5 @@
 void _puts(char *str)
 {
 char x = puts(str);
-printf("\n");
+ printf("%d \n", x);
 } 
