@@ -3,14 +3,13 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strlen - Check Holberton
- *@s: an input
+ * _puts - Check Holberton
+ *@str: an input
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
-int _strlen(char *s)
+void _puts(char *str)
 {
-int size = strlen(s);
-printf("%d", size);
-return (size);
-}
+char x = puts(str);
+printf("%d \n", x);
+} 
