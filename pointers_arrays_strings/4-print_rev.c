@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <publib.h>
 #include "main.h"
 /**
  * print_rev - Check Holberton
