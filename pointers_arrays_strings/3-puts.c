@@ -10,5 +10,7 @@
 
 void _puts(char *str)
 {
-printf("%c", str);
+char c = *str
+
+printf("%c", c);
 } 
