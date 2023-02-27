@@ -10,7 +10,7 @@
 
 void _puts(char *str)
 {
-char c = *str
+char c = *str;
 
 printf("%c", c);
 } 
