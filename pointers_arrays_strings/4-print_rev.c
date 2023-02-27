@@ -10,26 +10,15 @@
 
 void print_rev(char *s)
 {
-{
-   int length, c;
-   
-   char *begin, *end, temp;
- 
-   length = strlen(s);
-   begin  = s;
-   end    = s;
- 
-   for (c = 0; c < length - 1; c++)
-      end++;
- 
-   for (c = 0; c < length/2; c++)
-   {        
-      temp   = *end;
-      *end   = *begin;
-      *begin = temp;
- 
-      begin++;
-      end--;
-   }
-}
+  int size = 0;
+
+  while (s[size] != '\0')
+    {
+      size++;
+    }
+  while (size)
+    {
+    _putchar(s[--size]);
+    }
+    _putchar('\n');
 }
