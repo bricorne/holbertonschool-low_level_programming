@@ -10,19 +10,19 @@
 
 void puts2(char *str)
 {
-  int len = 0;
-  int i;
-  
-  while (str[len] != '\0')
+int len = 0;
+int i;
+
+while (str[len] != '\0')
 {
 len++;
 }
-  for (i = 0; i < len; i++)
-    {
-      if (i % 2 == 0)
-	{
-  printf("%c", str[i]);
-	}
-    }
-  printf("\n");
+for (i = 0; i < len; i++)
+{
+if (i % 2 == 0)
+{
+printf("%c", str[i]);
+}
+}
+printf("\n");
 }
