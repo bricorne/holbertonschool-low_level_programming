@@ -3,7 +3,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * puts - Check Holberton
+ * puts2 - Check Holberton
  *@str: an input
  * Return: 1 if is lowercase or 0 if is uppercase
  */
