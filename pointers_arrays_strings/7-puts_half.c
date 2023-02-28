@@ -18,7 +18,7 @@ while (str[len] != '\0')
 len++;
 }
  
-for (i = len; i < len; i++)
+for (i = len / 2; i < len; i++)
 {
 printf("%c", str[i]);
 }
