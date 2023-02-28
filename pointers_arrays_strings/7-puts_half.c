@@ -12,12 +12,15 @@ void puts_half(char *str)
 {
 int len = 0;
 int i;
-
+int len2;
+ 
 while (str[len] != '\0')
 {
 len++;
 }
-for (i = len + 2 / 2; i < len; i++)
+len2 = len + 1 / 2;
+ 
+for (i = len2; i < len; i++)
 {
 printf("%c", str[i]);
 }
