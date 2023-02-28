@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "main.h"
+/**
+ * _atoi - Check Holberton
+ *@s: an input
+ * Return: 1 if is lowercase or 0 if is uppercase
+ */
+
+int _atoi(char *s)
+{
+int i;
+int x;
+int len = 0;
+while (s[len] != '\0')
+{
+len++;
+}
+ for (i = 0; i < len; i++)
+   {
+     if (s[i] > '0' || s[i] < '9' || s[i] == '+' || s[i] == '-')
+       {
+	 x = s[i];
+       }
+     else
+       {
+	 x = 0;
+       }
+   }
+ return (x);
+}
