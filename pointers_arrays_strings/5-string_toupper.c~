@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "main.h"
+/**
+ * *string_toupper - Check Holberton
+ *@*: an input
+ * Return: 1 if is lowercase or 0 if is uppercase
+ */
+
+char *string_toupper(char *)
+{
+    int i;
+    for (i = 0; *[i] != '\0'; i++)
+    {
+            if (*[i] >= 'a' && *[i] <= 'z')
+                    *[i] =(int)*[i] - 32;
+    }
+    return (*);
+ }
