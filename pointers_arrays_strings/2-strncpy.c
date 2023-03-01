@@ -3,9 +3,10 @@
 #include <string.h>
 #include "main.h"
 /**
- * *_strcat - Check Holberton
+ * *_strncpy - Check Holberton
  *@dest: an input
  *@src: an input
+ *@n: an input
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
