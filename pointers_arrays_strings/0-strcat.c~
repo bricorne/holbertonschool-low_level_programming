@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "main.h"
+/**
+ * *_strcat - Check Holberton
+ *@dest: an input
+ *@char: an input
+ * Return: 1 if is lowercase or 0 if is uppercase
+ */
+
+char *_strcat(char *dest, char *src)
+{
+  strcat(dest, src);
+}
