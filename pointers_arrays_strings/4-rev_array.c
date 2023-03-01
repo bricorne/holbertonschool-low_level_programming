@@ -3,7 +3,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * print_array - Check Holberton
+ * reverse_array - Check Holberton
  *@a: an input
  *@n: an input
  * Return: 1 if is lowercase or 0 if is uppercase
