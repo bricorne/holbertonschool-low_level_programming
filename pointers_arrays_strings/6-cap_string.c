@@ -4,7 +4,7 @@
 #include "main.h"
 /**
  * *cap_string - Check Holberton
- *@n: an input
+ *@str: an input
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
