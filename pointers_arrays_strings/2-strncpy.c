@@ -15,7 +15,7 @@ int i;
 
 for (i = 0; src[i] != '\0'; ++i)
 {
-  if (i <n)
+  if (i <= n)
     {
 dest[i] = src[i];
     }
