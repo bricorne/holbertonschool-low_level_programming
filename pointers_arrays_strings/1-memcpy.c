@@ -3,9 +3,9 @@
 #include <string.h>
 #include "main.h"
 /**
- * *_memset - Check Holberton
- *@s: an input
- *@b: an input
+ * *_memcpy - Check Holberton
+ *@dest: an input
+ *@src: an input
  *@n: an input
  * Return: 1 if is lowercase or 0 if is uppercase
  */
