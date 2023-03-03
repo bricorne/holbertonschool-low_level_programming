@@ -2,11 +2,12 @@
 #include "main.h"
 
  /**
-  * _strchr - function
+  * _strchr - Check Holberton
   * @s: strings
   * @c:value
   * Return: s or NULL
   */
+
 char *_strchr(char *s, char c)
 {
 while (*s != '\0')
