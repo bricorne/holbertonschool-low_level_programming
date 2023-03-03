@@ -2,7 +2,7 @@
 #include "main.h"
 
  /**
-  * *_strchr - function
+  * _strchr - function
   * @s: strings
   * @c:value
   * Return: s or NULL
