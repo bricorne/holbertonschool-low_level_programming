@@ -2,7 +2,7 @@
 #include "main.h"
 
  /**
-  * _strchr - Check Holberton
+  * *_strchr - Check Holberton
   * @s: strings
   * @c:value
   * Return: s or NULL
