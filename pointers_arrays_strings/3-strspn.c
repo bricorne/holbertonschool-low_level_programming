@@ -3,7 +3,7 @@
 #include "main.h"
 
  /**
-  * _strspn - Check Holberton
+  * _str spn - Check Holberton
   * @s: an input
   * @accept: an input
   * Return: s or NULL
@@ -33,7 +33,7 @@ s++;
 accept = start;
 
 if (flag == 0)
-break; 
-} 
+break;
+}
 return (count);
 }
