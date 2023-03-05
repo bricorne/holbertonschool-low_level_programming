@@ -3,7 +3,7 @@
 #include "main.h"
 
  /**
-  * _str spn - Check Holberton
+  * _strspn - Check Holberton
   * @s: an input
   * @accept: an input
   * Return: s or NULL
