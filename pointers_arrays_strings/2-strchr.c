@@ -2,7 +2,7 @@
 #include "main.h"
 
  /**
-  * *_strchr - Check Holberton
+  * _strchr - a function that locates a character in a string.
   * @s: strings
   * @c:value
   * Return: s or NULL
