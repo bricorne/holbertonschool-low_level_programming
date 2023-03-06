@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include "main.h"
+
+/**
+ * _strlen_recursion - Check Holberton
+ *@s: an input
+ */
+
+int _strlen_recursion(char *s)
+{
+int size = 0;
+if (*s)
+{
+_strlen_recursion(s + 1);
+size++;
+}
+ return (size);
+}
