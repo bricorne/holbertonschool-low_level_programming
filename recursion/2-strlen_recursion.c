@@ -4,7 +4,7 @@
 
 /**
  * _strlen_recursion - Check Holberton
- * Return the size
+ * Return: the size
  *@s: an input
  */
 
