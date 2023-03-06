@@ -4,16 +4,16 @@
 
 /**
  * _strlen_recursion - Check Holberton
+ * Return the size
  *@s: an input
  */
 
 int _strlen_recursion(char *s)
 {
-int size = 0;
-if (*s)
+if (*s == '\0')
 {
-_strlen_recursion(s + 1);
-size++;
+return (0);
 }
- return (size);
+s++;
+return (_strlen_recursion(s) + 1);
 }
