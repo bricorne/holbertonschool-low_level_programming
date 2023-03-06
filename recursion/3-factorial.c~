@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+ * factorial - Check Holberton
+ * @n: an input
+ * Return: number
+ */
+
+int factorial(int n)
+{
+}
