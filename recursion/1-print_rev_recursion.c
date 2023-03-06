@@ -17,6 +17,6 @@ size++;
 }
 while (size)
 {
-puts(s[--size]);
+_putchar(s[--size]);
 }
 }
