@@ -9,6 +9,14 @@
 
 void _print_rev_recursion(char *s)
 {
-strrev(s);
-puts(s);
+int size = 0;
+
+while (s[size] != '\0')
+{
+size++;
+}
+while (size)
+{
+puts(s[--size]);
+}
 }
