@@ -15,7 +15,7 @@ return(x * _pow_recursion(x, y - 1));
 }
 if (y == 0)
 {
-retur (1);
+return (1);
 }
 else
 {
