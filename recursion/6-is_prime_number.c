@@ -7,7 +7,7 @@
  * Return: 1 or 0
  */
 
-int primeno(int, int);
+int primeno(int n, int i);
 
 int is_prime_number(int n)
 {
@@ -23,27 +23,24 @@ return (0);
 }
 
 /**
- * primero - It returns the value of square root of n.
+ * primeno - It returns the value of square root of n.
  * @n: an input integer
  * @i: an input integer
  * Return: The square root of n
  */
 
-int primeno(int n  , int i)
+int primeno(int n, int i)
 {
 if (i == 1)
 {
 return (1);
 }
-else
-{
-if (n % i == 0)
+else if (n % i == 0)
 {
 return (0);
 }
 else
 {
 return (primeno(n, i - 1));
-}
 }
 }
