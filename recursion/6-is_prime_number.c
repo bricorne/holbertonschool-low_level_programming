@@ -4,6 +4,7 @@
 /**
  * is_prime_number - It returns if hes prime
  * @n: an input integer
+ * @i: an input
  * Return: 1 or 0
  */
 
