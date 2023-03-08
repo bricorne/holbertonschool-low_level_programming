@@ -10,20 +10,27 @@
 
 int main(int argc, char **argv)
 {
-int num1, num2, result;
-if (argc != 3)
+int num[argc], i, result = 0;
+
+if (argc < 1)
 {
 printf("0\n");
 return (0);
 }
-num1 = atoi(argv[1]);
-num2 = atoi(argv[2]);
-if (num1 < 0 || num2 < 0)
+
+for (i = 1; i <= argc; i++)
+{ 
+num[i] = atoi(argv[i]);
+if (num[i] >= 0)
+{
+result = result + num[i];
+}
+else
 {
 printf("Error\n");
 return (1);
 }
-result = num1 +num2;
+}
 printf("%d\n", result);
 return (0);
 }
