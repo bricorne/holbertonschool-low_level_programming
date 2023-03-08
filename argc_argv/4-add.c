@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - A program that adds two numbers
@@ -19,12 +20,12 @@ return (0);
 }
 
 for (i = 1; i < argc; i++)
-{ 
-num = atoi(argv[i]);
- 
-if (num >= 0)
 {
-result = result +num;
+num = atoi(argv[i]);
+
+ if (num >= 0  && !(isalpha(num)))
+{
+result = result + num;
 }
 else
 {
@@ -32,7 +33,7 @@ printf("Error\n");
 return (1);
 }
 }
- 
+
 printf("%d\n", result);
 return (0);
 }
