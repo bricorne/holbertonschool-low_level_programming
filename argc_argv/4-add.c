@@ -23,7 +23,7 @@ for (i = 1; i < argc; i++)
 {
 num = atoi(argv[i]);
 
-if (num < 0  || !(isdigit(num)))
+if (num < 0  || isalpha(num))
 {
 printf("Error\n");
 return (1);
