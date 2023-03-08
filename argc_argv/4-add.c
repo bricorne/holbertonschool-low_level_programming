@@ -10,7 +10,7 @@
 
 int main(int argc, char **argv)
 {
-int num[argc], i, result = 0;
+int num, i, result = 0;
 
 if (argc < 1)
 {
@@ -20,10 +20,10 @@ return (0);
 
 for (i = 1; i <= argc; i++)
 { 
-num[i] = atoi(argv[i]);
-if (num[i] >= 0)
+num = atoi(argv[i]);
+if (num >= 0)
 {
-result = result + num[i];
+result = result +num;
 }
 else
 {
