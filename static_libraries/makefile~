@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -Wall -Werror -pedantic
+OBJS = my_functions.o
+TARGET = libmy.a
+
+$(TARGET): $(OBJS)
+	ar rcs $(TARGET) $(OBJS)
+
+my_functions.o: my_functions.c my_functions.h
+	$(CC) $(CFLAGS) -c my_functions.c
+
+clean:
+	rm -f $(TARGET) $(OBJS)
