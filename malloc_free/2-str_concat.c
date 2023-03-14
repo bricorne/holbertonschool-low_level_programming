@@ -19,16 +19,17 @@ int r = y + i;
 
 s = malloc((sizeof(char) * r) + 1);
 
-if (s == NULL)
-return (NULL);
-
-if (s1 == NULL)
+if (s1 == NULL && s2 == NULL)
 {
-strcat (s, s2);
+return (NULL);
+}
+else if (s1 == NULL)
+{
+strcat(s, s2);
 }
 else if (s2 == NULL)
 {
-strcat (s, s1);
+strcat(s, s1);
 }
 else
 {
