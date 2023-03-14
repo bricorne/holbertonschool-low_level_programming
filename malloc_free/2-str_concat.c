@@ -17,23 +17,24 @@ int i = strlen(s1);
 int y = strlen(s2);
 int r = y + i;
 
-s = malloc((sizeof(char) * r) +1);
-
-if (s1 == NULL)
-{
-s1 = "";
-}
-if (s2 == NULL)
-{
-s2 = "";
-}
+s = malloc((sizeof(char) * r) + 1);
 
 if (s == NULL)
 return (NULL);
 
-strcat(s,s1);
-strcat(s,s2);
-
+if (s1 == NULL)
+{
+strcat (s, s2);
+}
+else if (s2 == NULL)
+{
+strcat (s, s1);
+}
+else
+{
+strcat(s, s1);
+strcat(s, s2);
+}
 s[r] = '\0';
 return (s);
 }
