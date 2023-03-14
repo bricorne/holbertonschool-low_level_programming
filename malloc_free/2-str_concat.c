@@ -19,6 +19,11 @@ int r = y + i;
 
 s = malloc((sizeof(char) * r) + 1);
 
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
+
 strcat(s, s1);
 strcat(s, s2);
 
