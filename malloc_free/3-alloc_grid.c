@@ -38,7 +38,7 @@ return (NULL);
 }
 for (y = 0; y < height; y++)
 {
-s[i][y] = 0;	 
+s[i][y] = 0;
 }
 }
 return (s);
