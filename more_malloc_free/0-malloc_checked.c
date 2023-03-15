@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - function returns a pointer to a newly allocated space in memory
+ * malloc_checked - function
  * @b: the size
  *
  * Return: 0
