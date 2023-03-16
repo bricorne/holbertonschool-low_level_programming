@@ -18,6 +18,9 @@ unsigned int i = 0;
  
  s = malloc(nmemb * size);
 
+ if (s = NULL)
+   return (NULL);
+ 
  while (i < (nmemb * size))
    {
      s[i] = 0;
