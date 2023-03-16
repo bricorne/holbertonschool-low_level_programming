@@ -11,19 +11,19 @@
 
 int *array_range(int min, int max)
 {
-  int i = 0;
-  int *s;
+int i = 0;
+int *s;
 
-  if (min > max)
-    {
-    return (NULL);
-    }
-  
-  s = malloc((max - min) * sizeof(int) + sizeof(int));
+if (min > max)
+{
+return (NULL);
+}
 
-  if (s == NULL)
-    return (NULL);
-  
+s = malloc((max - min) * sizeof(int) + sizeof(int));
+
+if (s == NULL)
+return (NULL);
+
 while (min <= max)
 {
 s[i] = min;
