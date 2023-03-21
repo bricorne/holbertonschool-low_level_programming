@@ -21,7 +21,7 @@ if (array != NULL && cmp != NULL)
 	{
 		if (cmp(array[i]) != 0)
 		{
-			return (array[i]);
+			return (i);
 		}
 		i++;
 	}
