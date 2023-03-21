@@ -10,10 +10,8 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-int i = 0;
-while (name[i])
+if (name != NULL)
 {
-	_putchar(name[i]);
-	i++;
+	f(name);
 }
 }
