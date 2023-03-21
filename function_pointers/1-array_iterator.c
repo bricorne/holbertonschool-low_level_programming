@@ -5,7 +5,7 @@
   * array_iterator - print name
   * @array: array
   * @size: the size
-  * @f: fonction
+  * @action: fonction
   * Return: 0
   */
 
@@ -15,11 +15,10 @@ unsigned int i = 0;
 
 if (array != NULL && size > 0 && action != NULL)
 	{
-		while (i <= size)
+		while (i < size)
 		{
 			action(array[i]);
 			i++;
 		}	
-
 	}
 }
