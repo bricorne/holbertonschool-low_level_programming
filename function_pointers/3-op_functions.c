@@ -37,7 +37,7 @@ int op_mul(int a, int b)
 	return (a * b);
 }
 /**
- * op_add - /
+ * op_div - /
  * @a: int
  * @b: int
  * Return: result
@@ -53,7 +53,7 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
- * op_add - %
+ * op_mod - %
  * @a: int
  * @b: int
  * Return: result
