@@ -13,7 +13,7 @@ void print_all(const char * const format, ...)
 {
 	va_list ap;
 	char *temp;
-	int i;
+	int i = 0;
 
 	va_start(ap, format);
 	while (format == NULL)
@@ -21,7 +21,7 @@ void print_all(const char * const format, ...)
 		printf("\n");
 		return;
 	}
-	for (i = 0; format[i]; i++)
+	while (format[i])
 	{
 		switch (format[i])
 		{
@@ -47,6 +47,7 @@ void print_all(const char * const format, ...)
 		if ((format[i] == 'c' || format[i] == 'i' || format[i] == 'f'
 		|| format[i] == 's') && format[(i + 1)] != '\0')
 			printf(", ");
+	i++;
 	}
 	va_end(ap);
 	printf("\n");
