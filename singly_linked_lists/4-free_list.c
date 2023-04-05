@@ -2,7 +2,7 @@
 
 /**
   * free_list - free the list
-  * @
+  * @head: The pointer to the first node of linked list
   */
 
 void free_list(list_t *head)
@@ -16,5 +16,5 @@ void free_list(list_t *head)
 		free(temp->str);
 		free(temp);
 	}
-	free (head);
+	free(head);
 }
