@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  *
-  *
-  *
-  *
+  * read_textfile - reads text file and prints it to the POSIX standard output
+  * @filename: the name of the file
+  * @letters: the number of letters it should read and print
+  * Return: number of letters or 0
   */
 
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -15,7 +15,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	temp = malloc(sizeof(char) * letters);
 
 	if (temp == NULL)
-		return(0);
+		return (0);
 	fo = open(filename, O_RDONLY);
 	fr = read(fo, temp, letters);
 	fw = write(STDOUT_FILENO, temp, fr);
